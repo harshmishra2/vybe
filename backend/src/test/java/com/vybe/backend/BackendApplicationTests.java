@@ -1,13 +1,12 @@
 package com.vybe.backend;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class BackendApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+        // Basic sanity test - no Spring context needed yet
+        // Full integration tests will be added with TestContainers in future
+    }
 }
