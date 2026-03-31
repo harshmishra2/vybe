@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["jdk"]
-
-[phases.build]
-cmds = ["cd backend && ./mvnw clean package -DskipTests"]
-
-[start]
-cmd = "cd backend && java -jar backend/target/*.jar"
